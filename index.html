@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html leng="pt-br">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <head><title>WebSite.</title></head>
+    <header>
+        <h1>WebSite</h1>
+        </header>
+
+    <body>        
+        <nav>            
+            <ul>
+                <li><button onclick="home()">Home</button></li>
+                <li><button onclick="github()">Code</button></li>
+                <li><button>Contato</button></li>
+                <li><button onclick="telacad()">Cadastre-se</button></li>
+            </ul>
+        </nav>
+        <div>
+             <h1>Info.</h1>
+            <p>Seu conteudo aqui
+                
+            </p>
+        </div>
+        
+        <div id="w2">
+            <h1>Titulo</h1>
+           <p>Sua postagem aqui!!
+           </p>
+       </div> 
+       
+       <footer>
+           <p>VWander.</p>
+    </footer>     
+
+    </body>
+    <section>
+            <div >
+        <ul>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+        <li><i class="fab fa-youtube"></i></li>
+        
+    </ul>
+    </div>
+    </section>
+    <script>
+        function telacad(){
+            var cadastro=window.open("cad.html","_self");
+        }
+
+    </script>
+    <script>
+        function github(){
+            var profile=window.open("https://github.com/VWander", "_sefl");
+        }
+       
+    </script>
+    <script>
+        function home(){
+            var hm=window.open("index.html","_sefl");
+        }
+    </script>
+        
+</html>

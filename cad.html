@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html leng="pt-br">
+    <link rel="stylesheet" href="style.css">
+    <head><title>WebSite</title></head>
+    <header>
+        <h1>WebSite</h1>
+        </header>
+
+    <body>        
+        <nav>            
+            <ul>
+                <li><button onclick="home()">Home</button></li>
+                <li><button onclick="github()">Code</button></li>
+                <li><button>Contato</button></li>
+                <li><button onclick="telacad()">Cadastre-se</button></li>
+            </ul>
+        </nav>
+        <div class="cad">
+             <h1>Cadastro</h1>
+            <p><input type="text" placeholder="Nome" name="name">
+                <input type="text" placeholder="E-mail" name="email">
+                <input type="text" placeholder="Telefone" name="tel">
+                <input type="password" placeholder="Escolha uma senha" name="password">
+
+            </p>
+            <button>Cadastre-se</button>
+        </div>
+        
+    </body>
+    <footer class="fotcad">
+        <p>VWander.</p>
+ </footer>     
+    <script>
+        function telacad(){
+            var cadastro=window.open("cad.html","_self");
+        }
+
+    </script>
+    <script>
+        function github(){
+            var profile=window.open("https://github.com/VWander", "_sefl");
+        }
+       
+    </script>
+    <script>
+        function home(){
+            var hm=window.open("index.html","_sefl");
+        }
+    </script>
+</html>
